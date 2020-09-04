@@ -888,24 +888,7 @@ $[_0x42e0("0xf", "n3$F")](arr_kirim, function(p, index) {
           }
         }
       },
-      "find" : function(key) {
-        /** @type {!Array} */
-        var PL$24 = [];
-        return isObject(obj[key]) ? obj[key] : isObject(key) ? ($["each"](function(PL$60) {
-          /** @type {boolean} */
-          var _0x535fcf = true;
-          $[_0x42e0("0x292", "a6OG")](key, function(val, canCreateDiscussions, attr) {
-            return isString(val) ? val[_0x42e0("0x32d", "mu!C")](/<=.*/) ? (val = parseFloat(val[_0x42e0("0x4d1", "RAF$")]("<=", "")), PL$60["get"](attr) && parseFloat(PL$60[_0x42e0("0x471", "a6OG")](attr)) <= val || (_0x535fcf = false)) : val[_0x42e0("0x4a6", "ElcN")](/</) ? (val = parseFloat(val[_0x42e0("0x211", "UtcN")]("<", "")), PL$60[_0x42e0("0x372", "#9e9")](attr) && parseFloat(PL$60["get"](attr)) < val || (_0x535fcf = false)) : val[_0x42e0("0x24c", "d@%^")](/>=/) ? (val = parseFloat(val[_0x42e0("0xd6", 
-            "ufi7")](">=", "")), PL$60[_0x42e0("0x4d0", "ElcN")](attr) && parseFloat(PL$60[_0x42e0("0x554", "l2yS")](attr)) >= val || (_0x535fcf = false)) : val[_0x42e0("0x215", "n3$F")](/>/) ? (val = parseFloat(val[_0x42e0("0x224", "l2yS")](">", "")), PL$60[_0x42e0("0x503", "T7w9")](attr) && parseFloat(PL$60[_0x42e0("0x304", "v66D")](attr)) > val || (_0x535fcf = false)) : PL$60["get"](attr) && PL$60[_0x42e0("0x2f3", "Devk")](attr) === val || (_0x535fcf = false) : PL$60["get"](attr) && PL$60[_0x42e0("0x2e1", 
-            "h0C3")](attr) === val || (_0x535fcf = false), _0x535fcf;
-          });
-          if (_0x535fcf) {
-            PL$24["push"](PL$60);
-          }
-        }), PL$24) : isUndefined(key) ? ($[_0x42e0("0x57f", "jPCY")](function(PL$60) {
-          PL$24[_0x42e0("0x99", ")c)u")](PL$60);
-        }), PL$24) : PL$24;
-      },
+
       "items" : function() {
         return this["find"]();
       },
